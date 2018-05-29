@@ -1,0 +1,36 @@
+{
+    "name": "fuber",
+    "version": "0.0.1",
+    "description": "Backend Server",
+    "keywords": [
+      ""
+    ],
+    "scripts": {
+      "start": "node fuber.js",
+      "lint": "eslint *"
+     },
+     "dependencies": {
+        "async": "2.4.1",
+        "aws-sdk": "latest",
+        "connect-ensure-login": "0.1.1",
+        "cross-env": "3.2.3",
+        "express": "4.15.3",
+        "express-session": "1.15.0",
+        "https": "1.0.0",
+        "mergejson": "1.0.25",
+        "uuid": "3.1.0",
+        "websocket": "1.0.23"
+      },
+      "devDependencies": {
+        "chai": "3.5.0",
+        "chai-sorted": "0.1.0",
+        "eslint": "4.3.0",
+        "eslint-config-airbnb": "0.0.8",
+        "eslint-plugin-react": "3.3.1",
+        "istanbul": "0.4.5",
+        "mocha": "3.5.0",
+        "nocache": "2.0.0",
+        "npm-run-all": "4.0.2",
+        "supertest": "2.0.1"
+      }
+    }
